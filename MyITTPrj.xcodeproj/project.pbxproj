@@ -376,10 +376,12 @@
 		845E6648167B1001000944F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ye Songhai (GF288FJ4ZZ)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyITTPrj/MyITTPrj-Prefix.pch";
 				INFOPLIST_FILE = "MyITTPrj/MyITTPrj-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0445B964-7C90-4CF3-8584-4452A71734D6";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -387,10 +389,12 @@
 		845E6649167B1001000944F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ye Songhai (GF288FJ4ZZ)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyITTPrj/MyITTPrj-Prefix.pch";
 				INFOPLIST_FILE = "MyITTPrj/MyITTPrj-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0445B964-7C90-4CF3-8584-4452A71734D6";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -399,6 +403,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyITTPrj.app/MyITTPrj";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ye Songhai (GF288FJ4ZZ)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
@@ -407,6 +412,7 @@
 				GCC_PREFIX_HEADER = "MyITTPrj/MyITTPrj-Prefix.pch";
 				INFOPLIST_FILE = "MyITTPrjTests/MyITTPrjTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0445B964-7C90-4CF3-8584-4452A71734D6";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -416,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyITTPrj.app/MyITTPrj";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ye Songhai (GF288FJ4ZZ)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
@@ -424,6 +431,7 @@
 				GCC_PREFIX_HEADER = "MyITTPrj/MyITTPrj-Prefix.pch";
 				INFOPLIST_FILE = "MyITTPrjTests/MyITTPrjTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0445B964-7C90-4CF3-8584-4452A71734D6";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
