@@ -10,4 +10,6 @@
 
 @interface RTTViewController : UIViewController
 
+- (BOOL) isGreatThan10:(NSInteger) inputNumber;
+
 @end

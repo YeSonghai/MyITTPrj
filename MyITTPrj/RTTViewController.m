@@ -26,4 +26,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+
+- (BOOL) isGreatThan10:(NSInteger) inputNumber
+{
+    return (inputNumber > 10);
+}
+
 @end
