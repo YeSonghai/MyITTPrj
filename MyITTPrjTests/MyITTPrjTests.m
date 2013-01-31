@@ -29,10 +29,16 @@
     [super tearDown];
 }
 
+
 - (void)testExp1
 {
-    STFail(@"Unit tests are not implemented yet in MyITTPrjTests");
-    //STAssertTrue([self.mainVW isGreatThan10:12], @"TestisGreatThan10 fall");
+    STAssertTrue([self.mainVW isGreatThan10:12], @"TestisGreatThan10 fall");
+}
+
+
+- (void)testExp2
+{
+    STAssertFalse([self.mainVW isGreatThan10:12], @"TestisGreatThan10 fall");
 }
 
 
